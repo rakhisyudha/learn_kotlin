@@ -1,5 +1,13 @@
 class Animal{
     var name: String = "Dicoding Miaw"
+    get(){
+            println("Fungsi Getter terpanggil")
+            return field
+        }
+        set(value){
+            println("Fungsi Setter terpanggil")
+            field = value
+        }
 }
  
 fun main(){
